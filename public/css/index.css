@@ -64,4 +64,9 @@
         flex-direction: column;
         
     }
+    .español{
+        border: none;
+        text-decoration: underline;
+        background-color: #FFF7E9;
+    }
 }
