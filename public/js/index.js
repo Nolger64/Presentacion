@@ -28,4 +28,20 @@ BUTSPANISH.addEventListener('click', () => {
     
 })
 /*Botones de reder*/
-const TWITTER = document.getElementById("");
+const INSTAGRAM = document.getElementById("instagram");
+const FACEBOOK = document.getElementById("facebook");
+const LINKEDIN = document.getElementById("linkedin");
+const WHATSAPP = document.getElementById("whatsapp");
+
+INSTAGRAM.addEventListener('click', () => {
+    window.open("https://www.instagram.com/");
+})
+FACEBOOK.addEventListener('click', () => {
+    window.open("https://www.facebook.com/");
+})
+LINKEDIN.addEventListener('click', () => {
+    window.open("https://www.linkedin.com/");
+})
+WHATSAPP.addEventListener('click', () => {
+    window.open("https://api.whatsapp.com/send?phone=573126613981");
+})
