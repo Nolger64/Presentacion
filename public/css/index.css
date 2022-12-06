@@ -1,26 +1,106 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
-.part1{
-    width: 100vw;
-    height: 100vh;
+body{
     display: flex;
-    
 }
+/*part1*/
+.part1{
+    display: flex;
+    height: 90vh;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+}
+.send-email{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    padding: 12px 60px;
+    margin-bottom: 1vh;
+    cursor: pointer;
+}
+.icon-red{
+    width: 3vw;
+    margin: 1vw;
+}
+.img-per{
+    width: 30vw;
+    border-radius: 5%;
+}
+/*Parte 2*/
+.part2{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 97vh;
+    width: 50%;
+    background-color: #FFF7E9;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+}
+.about-but{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    padding: 8px 40px;
+    margin: 60px 0px;
+    font-size: large;
+    cursor: pointer;
+}
+.spanish{
+    border: none;
+    text-decoration: underline;
+    background-color: #FFF7E9;
+}
+
 @media (max-width: 600px) {
-    *{
-        margin: 5px;
+    body{
+        display: inline-block;
     }
-    .part1{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    /*Parte 1*/
+    .part1{ 
+        margin-top: 5vh;
+        margin-bottom: 10vh;
+        width: auto;
+        height: auto;
     }
     .icon-red{
-        width: 40px;
+        width: 10vw;
+        margin: 3vw;
     }
     .img-per{
-        width: 250px;
+        width: 80vw;
+        border-radius: 5%;
+    }
+    .send-email{
+        font-size: large;
+        padding: 10px 60px;
+        margin-top: 10vh;
+        margin-bottom: 8vh;
+    
+    }
+    /*Parte 2*/
+    .part2{
+        margin-top: 5vh;
+        height: 100vh;
+        width: auto;
+    }
+    .info{
+        width: 100%;
+    }
+    .about-but{
+        margin: 10px 0px;
+    }
+    .plus{
+        margin-top: 10vh;
+        display: flex;
+        flex-direction: column;  
     }
 }
